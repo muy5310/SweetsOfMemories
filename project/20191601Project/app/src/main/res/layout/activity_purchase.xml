@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ffff"
+    tools:context=".Purchase">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/top_text"
+            android:text="❣ 구 매 하 기 ❣"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="7dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#530434"
+            android:textSize="30dp"
+            android:background="#68e5ff"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="상 품 명"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:background="#87ceeb"/>
+        <TextView
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_marginLeft="4dp"
+            android:text="수 량"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:background="#87ceeb"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="#49002c"/>
+        <TextView
+            android:id="@+id/number_text"
+            android:layout_weight="2"
+            android:layout_height="100dp"
+            android:layout_marginTop="9dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="#49002c"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/message"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="총 00 원 입니다."
+            android:textSize="20dp"
+            android:textColor="#00ffff"
+            android:background="#000000"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=" 구매자 정보 입력"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:layout_marginTop="6dp"
+            android:background="#c4e4f4"
+            android:textSize="20dp"
+            android:textColor="#000080">
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <EditText
+            android:id="@+id/address"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:padding="10dp"
+            android:hint=" 주소를 입력해 주세요."
+            android:background="@drawable/border"/>
+    </TableRow>
+    <TableRow>
+        <EditText
+            android:id="@+id/phone"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:padding="10dp"
+            android:hint=" 연락처를 입력해 주세요."
+            android:background="@drawable/border"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/home_btn"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="#a8f2fa"
+            android:text="홈"
+            android:textSize="18dp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/purchase_btn"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:background="#3893ff"
+            android:text="결제 하기"
+            android:textColor="#000000"
+            android:textSize="23dp" />
+    </TableRow>
+</TableLayout>
